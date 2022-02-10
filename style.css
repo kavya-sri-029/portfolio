@@ -13,10 +13,6 @@
   font-weight: 400;
 }
 
-.foot{
-  align-items: center;
-  padding-left: 5%;
-}
 
 body {
   background-color: #131313;
@@ -104,40 +100,56 @@ body {
 
 /* Responsive layout - for bigger size*/
 @media screen and (min-width: 901px) and (max-width: 1900px){
+  .section2{
+    width: 83%;
+    height: 750px;
+    margin-top: 40px;
+  }
   .cont1{
-    width: 60%;
-    height: 450px;
-    align-items: center;
-    margin: 10%;
+    background-color: #3b3e46;
+    padding: 10px;
+    width: 48%;
+    height: auto;
+    display: block;
+    float: left;
   }
 
-  .text{
-    float: right;
-    width: 30%;
+  
+  .contentabt{
+    float: left;
+    width: 75%;
     display: inline;
     text-align: left;
-    margin-right: 20%;
-  }
-  
-  .pic{
-    float: left;
-    width: 30%;
-    margin-left: 15%;
   }
 
   .cont2{
-    align-items: center;
-    width: 60%;
-    display: block;
+    background-color: #3b3e46;
+    float: right;
+    width: 50%;
+    height: 692px;
+    align-items: right;
+    margin-left: 20px;
+    padding: 10px;
   }
-  .softwares{
-    width: fit-content;
-    height: fit-content;
-    background-color: white;
-    background-blend-mode: lighten; 
-    padding: 7px;
-    border-radius: 5px;
+
+  .text1{
+    float: right;
+    width: 70%;
+    text-align: right;
+    padding: auto;
   }
+  
+
+  #wex{
+    text-align: right;
+    float: right;
+  }
+
+  #abt{
+    text-align: left;
+    float: left;
+  }
+
 }
 
 
